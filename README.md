@@ -3,7 +3,8 @@ Developing a real-time data processing system to monitor weather conditions and 
 
 # Weather Data Retrieval and Analysis System
 
-<img width="960" alt="image" src="file:///C:/Users/Jahnavi/Desktop/App2-Weather-app-main/Application%202-Real-time-Weather-monitoring/index.html">
+
+![image](https://github.com/user-attachments/assets/64079888-fd61-4010-82db-27615fe90a9d)
 
 
 
