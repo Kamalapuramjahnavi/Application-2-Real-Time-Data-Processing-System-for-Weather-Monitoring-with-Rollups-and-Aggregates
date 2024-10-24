@@ -1,19 +1,22 @@
-# Application-2-Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates
-Developing a real-time data processing system to monitor weather conditions and provide summarized insights using rollups and aggregates. The system will utilize data from the OpenWeatherMap API 
-
 # Weather Data Retrieval and Analysis System
 
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/2c4fc70a-9633-485e-a3d6-aef57359b81a">
 
-![image](https://github.com/user-attachments/assets/64079888-fd61-4010-82db-27615fe90a9d)
+Hosted link: https://santosh-2003-sahoo.github.io/App2-Weather-app/
 
+# Real-Time Weather Monitoring System
 
+## Objective
 
-## Overview
-
-This project is designed to retrieve weather data from the OpenWeatherMap API at configurable intervals, convert temperature values based on user preference, and provide daily weather summaries including additional parameters like humidity and wind speed. The system is built to be robust, easy to set up, and extendable.
+The objective of this project is to develop a real-time data processing system that monitors weather conditions and provides summarized insights using rollups and aggregates. The system retrieves data from the OpenWeatherMap API, focusing on key weather parameters such as temperature and weather conditions.
 
 ## Features
 
+**Real-Time Data Retrieval**: Continuously fetches weather data from the OpenWeatherMap API every 5 minutes.
+- **Temperature Conversion**: Converts temperature values from Kelvin to Celsius.
+- **Daily Weather Summary**: Calculates daily aggregates including average, maximum, and minimum temperatures, along with the dominant weather condition.
+- **Alerting Thresholds**: Configurable thresholds for temperature alerts.
+- **Data Visualization**: Displays daily weather summaries and historical trends using visualizations.
 - **System Setup:** Initializes and connects to the OpenWeatherMap API using a valid API key.
 - **Data Retrieval:** Simulates API calls at configurable intervals to retrieve and parse weather data for specified locations.
 - **Temperature Conversion:** Converts temperature values from Kelvin to Celsius or Fahrenheit based on user preference.
@@ -27,17 +30,26 @@ This project is designed to retrieve weather data from the OpenWeatherMap API at
 - **Configurability:** API call intervals and temperature units are configurable to allow flexibility.
 - **Extensibility:** Designed to easily incorporate additional weather parameters from the OpenWeatherMap API.
 
-## Requirements
-- Screen 1070*680 minimum
-- Nodejs (optional in case system do not have live server utility)
+## Data Source
 
-## Getting Started
+The system utilizes the OpenWeatherMap API. You will need to sign up for a free API key to access the data. The API provides various weather parameters, including:
+
+- `main`: Main weather condition (e.g., Rain, Snow, Clear)
+- `temp`: Current temperature in Centigrade
+- `feels_like`: Perceived temperature in Centigrade
+- `dt`: Time of the data update (Unix timestamp)
+
+## Installation
 
 ### Prerequisites
 
-- Node.js and npm installed
+- Python 3.7 or higher
+- SQLite (or any other database of your choice)
 
-### Installation
+### Dependencies
+
+Install the required Python libraries using pip:
+
 
 1. **Clone the Repository**
    ```bash
@@ -59,3 +71,8 @@ This project is designed to retrieve weather data from the OpenWeatherMap API at
    http-server -p 8080**
    ```
 
+## Running Tests
+
+You can add and run tests to ensure everything is working correctly.
+```
+created bt: santosh sahoo
